@@ -13,5 +13,5 @@ $f = fopen("$id.php",'w');
 fwrite($f,'<?php header("Location: '.$url.'"); ?>');
 fclose($f);
 }
-echo 'Your shortened url: www.codejackal.com/Kieran/'.$id.'.php';
+echo 'Your shortened url: www.yoursite.com/'.$id.'.php';
 ?>
